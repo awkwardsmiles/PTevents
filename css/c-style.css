@@ -165,10 +165,12 @@ contact styles
     display: flex;
     justify-content: space-between;
     align-items: flex-start; 
-    color: white;
+    color: black;
     font-weight: 600;
     font-size: 1rem;
-    background-color: var(--main-color);
+    background-color: var(--body-color);
+    border-radius: 50px;
+    border: 1px solid black
   }
   
   .location-info,
@@ -183,7 +185,7 @@ contact styles
   
   .location-info p,
   .contact-info p {
-    margin: 0 0 10px;
+    margin: 0 0 9px;
     text-align: center; 
   
   }
